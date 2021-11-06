@@ -1,10 +1,6 @@
 .site-contacts {
   display: none;
 
-  @media (max-width: 768px) {
-    margin-top: 64px;
-  }
-
   @media (min-width: 768px) {
     display: block;
   }

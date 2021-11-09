@@ -660,26 +660,26 @@ body.modal-open {
   }
 }
 
-.site-contacts__item {
+.site-contacts .site-contacts__item {
   margin-bottom: 32px;
 }
 
-.site-contacts__item:last-child {
+.site-contacts:last-child {
   margin-bottom: 0px;
 }
 
 @media (min-width: 768px) {
-  .site-contacts__item {
+  .site-contacts {
     margin-bottom: 10px;
   }
 }
 
 @media (min-width: 1200px) {
-  .site-contacts__item {
+  .site-contacts {
     margin-bottom: 0px;
     margin-right: 50px;
   }
-  .site-contacts__item:last-child {
+  .site-contacts:last-child {
     margin-right: 0px;
     margin-bottom: 0px;
   }

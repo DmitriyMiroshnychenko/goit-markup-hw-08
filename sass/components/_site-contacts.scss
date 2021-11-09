@@ -7,10 +7,10 @@
   @media (min-width: 1200px) {
     display: flex;
   }
-}
-.site-contacts__item {
-  margin-bottom: 32px;
 
+  .site-contacts__item {
+    margin-bottom: 32px;
+  }
   &:last-child {
     margin-bottom: 0px;
   }
